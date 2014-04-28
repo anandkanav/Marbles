@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/table"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_gravity="top" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="BrainVita" android:textColor="#ffffff" android:layout_height="wrap_content" android:layout_gravity="center"></TextView>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="72dp">
+            <Button android:visibility="visible" android:id="@+id/button1" android:textSize="20sp" android:layout_weight="1" android:textColor="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Reset" android:background="#000000"></Button>
+            <Button android:id="@+id/button2" android:textSize="20sp" android:layout_weight="1" android:textColor="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Left = 32" android:background="#000000"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.02">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal" android:layout_width="match_parent" android:layout_gravity="top" android:layout_height="wrap_content" android:layout_weight="0.00">
+        <Button android:layout_width="30dp" android:background="@drawable/sample" android:layout_height="28dp" android:visibility="invisible" android:id="@+id/bt1"></Button>
+        <Button android:layout_width="30dp" android:background="@drawable/sample" android:layout_height="28dp" android:visibility="invisible" android:id="@+id/bt2"></Button>
+        <Button android:id="@+id/bt3" android:layout_width="30dp" android:layout_height="28dp" android:background="@drawable/sample" android:layout_gravity="center"></Button>
+        <Button android:layout_width="30dp" android:background="@drawable/sample" android:layout_height="28dp" android:id="@+id/bt4" android:layout_gravity="center"></Button>
+        <Button android:id="@+id/bt5" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample" android:layout_gravity="center"></Button>
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/sample" android:visibility="invisible" android:id="@+id/bt6"/>
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/sample" android:visibility="invisible" android:id="@+id/bt7"/>
+
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" android:layout_width="wrap_content" android:layout_gravity="center" android:layout_height="2dp"></LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:visibility="invisible" android:id="@+id/bt8" android:layout_gravity="center"/>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="28dp" android:visibility="invisible" android:id="@+id/bt9" android:layout_gravity="center"></Button>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="28dp" android:id="@+id/bt10" android:layout_gravity="bottom"></Button>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="28dp" android:id="@+id/bt11" android:layout_gravity="bottom"></Button>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="28dp" android:id="@+id/bt12" android:layout_gravity="bottom"></Button>
+        <Button android:visibility="invisible" android:id="@+id/bt13" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample" android:layout_gravity="center"></Button>
+
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:visibility="invisible" android:id="@+id/bt14" android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout5" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="7dp"></LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/bt15" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample"></Button>
+        <Button android:id="@+id/bt16" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample"></Button>
+        <Button android:id="@+id/bt17" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample"></Button>
+        <Button android:id="@+id/bt18" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample"></Button>
+        <Button android:id="@+id/bt19" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample"></Button>
+        <Button android:id="@+id/bt20" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample"></Button>
+        <Button android:id="@+id/bt21" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample"></Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout02" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="4dp"></LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" android:weightSum="1" android:layout_height="wrap_content" android:layout_width="203dp" android:layout_weight="0.03">
+        <Button android:id="@+id/button3" android:text="Button" android:layout_height="0dp" android:layout_width="2dp"></Button>
+        <Button android:id="@+id/bt22" android:layout_weight="0.02" android:layout_width="28dp" android:layout_height="28dp" android:background="@drawable/sample" android:layout_gravity="top"></Button>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt23" android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt24" android:layout_gravity="top"/>
+
+        <Button
+            android:layout_height="28dp"
+            android:background="@drawable/sample1"  
+            android:visibility="invisible"
+            android:id="@+id/bt25" android:layout_width="28dp" android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt26" android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt27" android:layout_gravity="top"/>
+
+        <Button
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt28" android:layout_width="28dp" android:layout_weight="0.04" android:layout_gravity="top"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayout03" android:orientation="vertical" android:layout_height="1dp"></LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" android:layout_width="match_parent" android:layout_gravity="bottom" android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt29" android:layout_gravity="bottom"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt30" android:layout_gravity="bottom"/>
+
+        <Button
+            android:background="@drawable/sample" android:id="@+id/bt31" android:layout_gravity="bottom" android:layout_width="28dp" android:layout_height="28dp"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt32" android:layout_gravity="bottom"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt33" android:layout_gravity="bottom"/>
+
+        <Button
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/sample" android:id="@+id/bt34" />
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:id="@+id/bt35" android:layout_gravity="bottom"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout04" android:orientation="vertical" android:layout_width="wrap_content" android:visibility="visible" android:layout_height="3dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:visibility="invisible" android:id="@+id/bt36"/>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="30dp" android:visibility="invisible" android:id="@+id/bt37"></Button>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="30dp" android:id="@+id/bt38"></Button>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="30dp" android:id="@+id/bt39"></Button>
+        <Button android:layout_width="28dp" android:background="@drawable/sample" android:layout_height="30dp" android:id="@+id/bt40"></Button>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:visibility="invisible" android:id="@+id/bt41"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/sample" android:visibility="invisible" android:id="@+id/bt42"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout05" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="5dp"></LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:orientation="vertical" android:layout_weight="0.93" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <LinearLayout android:orientation="horizontal" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:visibility="invisible" android:id="@+id/bt43" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/sample"></Button>
+            <Button android:visibility="invisible" android:id="@+id/bt44" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/sample"></Button>
+            <Button android:id="@+id/bt45" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/sample"></Button>
+            <Button android:id="@+id/bt46" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/sample"></Button>
+            <Button android:id="@+id/bt47" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/sample"></Button>
+            <Button android:visibility="invisible" android:id="@+id/bt48" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/sample"></Button>
+            <Button android:visibility="invisible" android:id="@+id/bt49" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/sample"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
